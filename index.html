@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Header Section -->
+        <header class="quiz-header">
+            <h1>💡 Interactive Quiz</h1>
+            <div class="quiz-stats">
+                <div class="timer">
+                         Time: <span id="time">15</span>s
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="question-counter">
+                    Question <span id="currentQ">1</span> of <span id="totalQ">10</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Quiz Section -->
+        <main class="quiz-main">
+            <div class="question-section" id="questionSection">
+                <h2 class="question" id="question">Loading question...</h2>
+                <div class="options" id="options"></div>
+                <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question</button>
+            </div>
+
+            <!-- Results Section -->
+            <div class="result-section" id="resultSection" style="display: none;">
+                <div class="result-card">
+                    <h2>💡 Quiz Complete!</h2>
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span id="finalScore">0</span>
+                            <small>out of <span id="totalQuestions">10</span></small>
+                        </div>
+                    </div>
+                    <p class="score-message" id="scoreMessage"></p>
+                    <div class="action-buttons">
+                        <button class="restart-btn" onclick="restartQuiz()">💡 Restart Quiz</button>
+                        <button class="high-scores-btn" onclick="showHighScores()">💡 High Scores</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- High Scores Section -->
+            <div class="high-scores-section" id="highScoresSection" style="display: none;">
+                <div class="high-scores-card">
+                    <h2>💡 High Scores</h2>
+                    <div class="scores-list" id="scoresList"></div>
+                    <button class="back-btn" onclick="showResults()"> 💡  Back to Results</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">💡</button>
+    
+    <script src="script.js?v=2"></script>
+</body>
+</html>
