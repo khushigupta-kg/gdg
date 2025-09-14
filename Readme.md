@@ -8,7 +8,7 @@ Newton School of Technology - Computer Science
 
 A modern, interactive quiz application built with vanilla HTML, CSS, and JavaScript. This project demonstrates proficiency in frontend development, responsive design, and modern web technologies while delivering an engaging user experience.
 
-*Live Demo:* [Your Deployed URL Here]  
+*Live Demo:* https://gdg-smoky.vercel.app/  
 *GitHub Repository:* [Your GitHub Repo URL Here]
 
 ## Features Implemented
