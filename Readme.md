@@ -132,10 +132,10 @@ saveHighScore(percentage, timeTaken) {
 
 | Browser | Version | Status |
 |---------|---------|---------|
-| Chrome | 80+ | âœ… Fully Supported |
-| Firefox | 75+ | âœ… Fully Supported |
-| Safari | 13+ | âœ… Fully Supported |
-| Edge | 80+ | âœ… Fully Supported |
+| Chrome | 80+  Fully Supported |
+| Firefox | 75+ | Fully Supported |
+| Safari | 13+ | Fully Supported |
+| Edge | 80+ | Fully Supported |
 
 ## Deployment
 
