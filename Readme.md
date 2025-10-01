@@ -205,9 +205,8 @@ As a first-year Computer Science student with a strong interest in both frontend
 * Khushi Gupta 
 First-Year Computer Science Student | Newton School of Technology
 
--  *Interests:* Software Development, AI, Backend Systems
--  *Recent:* Smart India Hackathon Backend Developer  
--  *Skills:* Python, JavaScript, Flask, HTML/CSS
+-  *Interests:* Software Development, AI,Frontend and Backend Systems 
+-  *Skills:* Python, Flask, HTML/CSS
 -  *Learning:* Full-stack development and competitive programming
 
 ## Contact & Links
